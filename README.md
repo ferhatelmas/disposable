@@ -7,8 +7,8 @@
 
 There are two lists; namely, `Black` and `White`.
 
-`Black`: These are disposable and generally used to register dummy users to abuse/spam other services.
-`White`: These are real email providers but generally treated as disposable wrongly.
+* `Black`: These are disposable and generally used to register dummy users to abuse/spam other services.
+* `White`: These are real email providers but generally treated as disposable wrongly.
 
 ## Install
 
@@ -26,11 +26,11 @@ disposable.IsBlack("10MAIL.org") // true
 
 ## RELATED
 
-Actual list is collected @ [martersen/disposable-email-domains](https://github.com/martenson/disposable-email-domains).
+Actual list is collected at [martersen/disposable-email-domains](https://github.com/martenson/disposable-email-domains).
 
 ## CONTRIBUTING
 
-Feel free to create a PR with additions or removal requests here or above related repo. For sure, don't forget adding explanation of request.
+Feel free to create a PR with additions or removal requests [here](https://github.com/ferhatelmas/disposable/compare) or above related repo. For sure, don't forget adding explanation of request.
 
 ## LICENSE
 
