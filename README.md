@@ -30,7 +30,7 @@ Actual list is collected at [martersen/disposable-email-domains](https://github.
 
 ## CONTRIBUTING
 
-Feel free to create a PR with additions or removal requests [here](https://github.com/ferhatelmas/disposable/compare) or above related repo. For sure, don't forget adding explanation of request.
+Feel free to create a PR with additions or removal requests [here](https://github.com/ferhatelmas/disposable/issues/new) or above related repo. For sure, don't forget adding explanation of request.
 
 ## LICENSE
 
