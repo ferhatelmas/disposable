@@ -41,3 +41,19 @@ func test(domains []string, expected bool, check func(string) bool, t *testing.T
 		}
 	}
 }
+
+func TestNoDuplicate(t *testing.T) {
+	checkDuplicates(Black, t)
+	checkDuplicates(White, t)
+}
+
+func checkDuplicates(ls []string, t *testing.T) {
+	m := map[string]bool{}
+	for _, s := range ls {
+		if m[s] {
+			t.Fatalf(s + " is a duplicate.")
+		} else {
+			m[s] = true
+		}
+	}
+}
